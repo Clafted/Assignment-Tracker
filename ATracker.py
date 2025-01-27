@@ -119,5 +119,6 @@ assignments = sortAssignments(assignments)
 displayAssignments()
 while(processInput()):
     assignments = sortAssignments(assignments)
+    saveData()
     pass
 saveData()
